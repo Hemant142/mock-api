@@ -1,24 +1,690 @@
 {
-  "todos": [
+  "quiz": [
     {
-      "id": 1,
-      "title":"Learn JavaScript",
-      "status":false
+      "id":1,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+        "correct_answer": "Key",
+        "incorrect_answers": [
+            "Sword",
+            "Pen",
+            "Cellphone"
+        ]
     },
-    {
-      "id": 2,
-     "title":"Learn Node",
-     "status":false
+    { "id":2,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What do the letters in the GMT time zone stand for?",
+        "correct_answer": "Greenwich Mean Time",
+        "incorrect_answers": [
+            "Global Meridian Time",
+            "General Median Time",
+            "Glasgow Man Time"
+        ]
     },
-    {
-      "id": 3,
-     "title":"Learn Java",
-     "status":false
+    { "id":3,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+        "correct_answer": "Print",
+        "incorrect_answers": [
+            "Digest",
+            "Look",
+            "Read"
+        ]
     },
-    {
-      "id": 4,
-      "title":"Learn React",
-      "status":false
-    }
+    { "id":4,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How tall is the Burj Khalifa?",
+        "correct_answer": "2,722 ft",
+        "incorrect_answers": [
+            "2,717 ft",
+            "2,546 ft",
+            "3,024 ft"
+        ]
+    },
+    { "id":5,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following card games revolves around numbers and basic math?",
+        "correct_answer": "Uno",
+        "incorrect_answers": [
+            "Go Fish",
+            "Twister",
+            "Munchkin"
+        ]
+    },
+    { "id":6,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+        "correct_answer": "Thomas Jefferson",
+        "incorrect_answers": [
+            "Martin Van Buren",
+            "Ulysses Grant",
+            "John Quincy Adams"
+        ]
+    },
+    { "id":7,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many furlongs are there in a mile?",
+        "correct_answer": "Eight",
+        "incorrect_answers": [
+            "Two",
+            "Four",
+            "Six"
+        ]
+    },
+    { "id":8,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the author of Jurrasic Park?",
+        "correct_answer": "Michael Crichton",
+        "incorrect_answers": [
+            "Peter Benchley",
+            "Chuck Paluhniuk",
+            "Irvine Welsh"
+        ]
+    },
+    { "id":9,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who invented the first ever chocolate bar, in 1847?",
+        "correct_answer": "Joseph Fry",
+        "incorrect_answers": [
+            "Andrew Johnson",
+            "John Cadbury",
+            "John Tyler"
+        ]
+    },
+    { "id":10,
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The &ldquo;fairy&rdquo; type made it&rsquo;s debut in which generation of the Pokemon core series games?",
+        "correct_answer": "6th",
+        "incorrect_answers": [
+            "2nd",
+            "7th",
+            "4th"
+        ]
+    },
+
+    { "id":11,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the defining characteristic of someone who is described as hirsute?",
+      "correct_answer": "Hairy",
+      "incorrect_answers": [
+          "Rude",
+          "Funny",
+          "Tall"
+      ]
+  },
+  { "id":12,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the name of the very first video uploaded to YouTube?",
+      "correct_answer": "Me at the zoo",
+      "incorrect_answers": [
+          "tribute",
+          "carrie rides a truck",
+          "Her new puppy from great grandpa vern."
+      ]
+  },
+  { "id":13,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who is the founder of &quot;The Lego Group&quot;?",
+      "correct_answer": "Ole Kirk Christiansen",
+      "incorrect_answers": [
+          " Jens Niels Christiansen",
+          "Kirstine Christiansen",
+          " Gerhardt Kirk Christiansen"
+      ]
+  },
+  { "id":14,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Amsterdam Centraal station is twinned with what station?",
+      "correct_answer": "London Liverpool Street",
+      "incorrect_answers": [
+          "Frankfurt (Main) Hauptbahnhof",
+          "Paris Gare du Nord",
+          "Brussels Midi"
+      ]
+  },
+  { "id":15,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Directly between the Washington Monument and the Reflecting Pool is a memorial to which war?",
+      "correct_answer": "World War II",
+      "incorrect_answers": [
+          "Vietnam War",
+          "American Civil War",
+          "American Revolutionary War"
+      ]
+  },
+
+  
+  { "id":16,
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which film star has his statue in Leicester Square?",
+    "correct_answer": "Charlie Chaplin",
+    "incorrect_answers": [
+        "Paul Newman",
+        "Rowan Atkinson ",
+        "Alfred Hitchcock"
+    ]
+},
+{ "id":17,
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Chartreuse is a color between yellow and what?",
+    "correct_answer": "Green",
+    "incorrect_answers": [
+        "Red",
+        "Black",
+        "Purple"
+    ]
+},
+{ "id":18,
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Located in Chile, El Teniente is the world&#039;s largest underground mine for what metal?",
+    "correct_answer": "Copper",
+    "incorrect_answers": [
+        "Iron",
+        "Nickel",
+        "Silver"
+    ]
+},
+{ "id":19,
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what dungeon is widely considered to be the most difficult?",
+    "correct_answer": "The Shatter&#039;s",
+    "incorrect_answers": [
+        "Snake Pit",
+        "The Tomb of the Acient&#039;s",
+        "The Puppet Master&#039;s Theater"
+    ]
+},
+{ "id":20,
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "The word &quot;aprosexia&quot; means which of the following?",
+    "correct_answer": "The inability to concentrate on anything",
+    "incorrect_answers": [
+        "The inability to make decisions",
+        "A feverish desire to rip one&#039;s clothes off",
+        "The inability to stand up"
+    ]
+},
+
+
+{"id":21,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "How many soccer players should be on the field at the same time?",
+  "correct_answer": "22",
+  "incorrect_answers": [
+      "20",
+      "24",
+      "26"
   ]
+},
+{"id":22,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "Which country has hosted the 2018 FIFA World Cup?",
+  "correct_answer": "Russia",
+  "incorrect_answers": [
+      "Germany",
+      "United States",
+      "Saudi Arabia"
+  ]
+},
+{"id":23,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+  "correct_answer": "4",
+  "incorrect_answers": [
+      "1",
+      "2",
+      "3"
+  ]
+},
+{"id":24,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "Which boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in 1997?",
+  "correct_answer": "Mike Tyson",
+  "incorrect_answers": [
+      "Roy Jones Jr.",
+      "Evander Holyfield",
+      "Lennox Lewis"
+  ]
+},
+{"id":25,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+  "correct_answer": "1-7",
+  "incorrect_answers": [
+      "1-5",
+      "1-6",
+      "2-6"
+  ]
+},
+
+
+{"id":26,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "What tool lends it&#039;s name to a last-stone advantage in an end in Curling?",
+  "correct_answer": "Hammer",
+  "incorrect_answers": [
+      "Wrench",
+      "Drill",
+      "Screwdriver"
+  ]
+},
+{"id":27,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "With which doubles partner did John McEnroe have most success?",
+  "correct_answer": "Peter Fleming",
+  "incorrect_answers": [
+      "Mark Woodforde",
+      "Michael Stich",
+      "Mary Carillo"
+  ]
+},
+{"id":28,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "Where was the Games of the XXII Olympiad held?",
+  "correct_answer": "Moscow",
+  "incorrect_answers": [
+      "Barcelona",
+      "Tokyo",
+      "Los Angeles"
+  ]
+},
+{"id":29,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+  "correct_answer": "Mazda",
+  "incorrect_answers": [
+      "Toyota",
+      "Subaru",
+      "Nissan"
+  ]
+},
+{"id":30,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+  "correct_answer": "Ma Long (China)",
+  "incorrect_answers": [
+      "Zhang Jike (China)",
+      "Jun Mizutani (Japan)",
+      "Vladimir Samsonov (Belarus)"
+  ]
+},
+{"id":31,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "Which city features all of their professional sports teams&#039; jersey&#039;s with the same color scheme?",
+  "correct_answer": "Pittsburgh",
+  "incorrect_answers": [
+      "New York",
+      "Seattle",
+      "Tampa Bay"
+  ]
+},
+{"id":32,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+  "correct_answer": "1991",
+  "incorrect_answers": [
+      "1990",
+      "2000",
+      "1987"
+  ]
+},
+{"id":33,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+  "correct_answer": "Horse Racing",
+  "incorrect_answers": [
+      "Chess",
+      "Jousting",
+      "Fencing"
+  ]
+},
+{"id":34,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+  "correct_answer": "Vladivostok",
+  "incorrect_answers": [
+      "Rostov-on-Don",
+      "Yekaterinburg",
+      "Kaliningrad"
+  ]
+},
+{"id":35,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "In Canadian football, scoring a rouge is worth how many points?",
+  "correct_answer": "1",
+  "incorrect_answers": [
+      "2",
+      "3",
+      "4"
+  ]
+},
+
+
+{"id":36,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "Which German sportswear company&#039;s logo is the &#039;Formstripe&#039;?",
+  "correct_answer": "Puma",
+  "incorrect_answers": [
+      "Nike",
+      "Adidas",
+      "Reebok"
+  ]
+},
+{"id":37,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "Josh Mansour is part of what NRL team?",
+  "correct_answer": "Penrith Panthers",
+  "incorrect_answers": [
+      "Melbourne Storm",
+      "Sydney Roosters",
+      "North Queensland Cowboys"
+  ]
+},
+{"id":38,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+  "correct_answer": "Toronto Marlies",
+  "incorrect_answers": [
+      "Toronto Rock",
+      "Toronto Argonauts",
+      "Toronto Wolfpack"
+  ]
+},
+{"id":39,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "Which basketball team has attended the most NBA grand finals?",
+  "correct_answer": "Los Angeles Lakers",
+  "incorrect_answers": [
+      "Boston Celtics",
+      "Philadelphia 76ers",
+      "Golden State Warriors"
+  ]
+},
+{"id":40,
+  "category": "Sports",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+  "correct_answer": "James Rodr&iacute;guez",
+  "incorrect_answers": [
+      "Thomas M&uuml;ller",
+      "Lionel Messi",
+      "Neymar"
+  ]
+},
+
+
+
+
+{"id":41,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "What is the capital of the American state of Arizona?",
+  "correct_answer": "Phoenix",
+  "incorrect_answers": [
+      "Montgomery",
+      "Tallahassee",
+      "Raleigh"
+  ]
+},
+
+{"id":42,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "What is the capital of Indonesia?",
+  "correct_answer": "Jakarta",
+  "incorrect_answers": [
+      "Bandung",
+      "Medan",
+      "Palembang"
+  ]
+},
+
+{"id":43,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "Which country does Austria not border?",
+  "correct_answer": "France",
+  "incorrect_answers": [
+      "Slovenia",
+      "Switzerland",
+      "Slovakia"
+  ]
+},
+
+{"id":44,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "What is the capital of Denmark?",
+  "correct_answer": "Copenhagen",
+  "incorrect_answers": [
+      "Aarhus",
+      "Odense",
+      "Aalborg"
+  ]
+},
+
+{"id":45,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "easy",
+  "question": "Which of these is the name of the largest city in the US state Tennessee?",
+  "correct_answer": "Memphis",
+  "incorrect_answers": [
+      "Thebes",
+      "Alexandria",
+      "Luxor"
+  ]
+},
+
+
+
+{"id":46,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "Which of the following countries is within the Eurozone but outside of the Schengen Area?",
+  "correct_answer": "Cyprus",
+  "incorrect_answers": [
+      "Malta",
+      "Greece",
+      "Portugal"
+  ]
+},
+
+{"id":47,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "Which of the following countries banned the use of personal genetic ancestry tests?",
+  "correct_answer": "Germany",
+  "incorrect_answers": [
+      "Austria",
+      "Canada",
+      "Sweden"
+  ]
+},
+
+{"id":48,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "The towns of Brugelette, Arlon and Ath are located in which country?",
+  "correct_answer": "Belgium",
+  "incorrect_answers": [
+      "Andorra",
+      "France",
+      "Luxembourg"
+  ]
+},
+
+{"id":49,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "What is the capital of Greenland?",
+  "correct_answer": "Nuuk",
+  "incorrect_answers": [
+      "Sisimiut",
+      "Narsaq",
+      "Maniitsoq"
+  ]
+},
+{"id":50,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "medium",
+  "question": "Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?",
+  "correct_answer": "Zambia &amp; Zimbabwe",
+  "incorrect_answers": [
+      "Togo &amp; Benin",
+      "Lesotho &amp; Swaziland",
+      "Rwanda &amp; Burundi"
+  ]
+},
+
+{"id":51,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "What is Canada&#039;s largest island?",
+  "correct_answer": "Baffin Island",
+  "incorrect_answers": [
+      "Prince Edward Island",
+      "Vancouver Island",
+      "Newfoundland"
+  ]
+},
+{"id":52,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "When does Finland celebrate their independence day?",
+  "correct_answer": "December 6th",
+  "incorrect_answers": [
+      "January 2nd",
+      "November 12th",
+      "February 8th"
+  ]
+},
+{"id":53,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "Which of these cities has a 4&deg; East longitude. ",
+  "correct_answer": "Amsterdam",
+  "incorrect_answers": [
+      "Rio de Janero",
+      "Toronto",
+      "Hong Kong"
+  ]
+},
+{"id":54,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "How many stations does the Central Line have on the London Underground?",
+  "correct_answer": "49",
+  "incorrect_answers": [
+      "51",
+      "43",
+      "47"
+  ]
+},
+{"id":55,
+  "category": "Geography",
+  "type": "multiple",
+  "difficulty": "hard",
+  "question": "Which is not a country in Africa?",
+  "correct_answer": "Guyana",
+  "incorrect_answers": [
+      "Senegal",
+      "Liberia",
+      "Somalia"
+  ]
+}
+
+]
 }
