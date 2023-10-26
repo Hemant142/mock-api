@@ -686,5 +686,25 @@
   ]
 }
 
+],
+"quizResult":[
+  {
+  "id":1,
+  "userName":"Alice",
+  "correctAnswer":8,
+  "totalAnswer":10
+},
+{
+  "id":1,
+  "userName":"Bob",
+  "correctAnswer":4,
+  "totalAnswer":10
+},
+{
+  "id":3,
+  "userName":"Charly",
+  "correctAnswer":9,
+  "totalAnswer":10
+}
 ]
 }
